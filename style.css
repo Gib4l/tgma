@@ -1,0 +1,27 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family:  Arial, sans-serif;
+    background: #F0F4FF;  
+    color: #2A2A2A;
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+#welcome {
+    font-size: 3rem;
+    letter-spacing: 0.04em;
+}
